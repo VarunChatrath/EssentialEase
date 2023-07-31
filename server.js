@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt');
 const fs = require('fs');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/ecomdb').then(() => console.log('Connected to MongoDB!'));
+mongoose.connect('mongodb+srv://Varun:2WYhgJCV21P1rKyz@essentialease.gyfciwi.mongodb.net/?retryWrites=true&w=majority').then(() => console.log('Connected to MongoDB!'));
 
 var cors = require('cors')
 app.use(cors())
